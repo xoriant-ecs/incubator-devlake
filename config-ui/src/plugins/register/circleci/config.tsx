@@ -42,7 +42,7 @@ export const CircleCIConfig: IPluginConfig = {
       {
         key: 'rateLimitPerHour',
         subLabel:
-          'By default, DevLake uses 10,000 requests/hour for data collection for CircleCI. But you can adjust the collection speed by setting up your desirable rate limit.',
+          'By default, DevX uses 10,000 requests/hour for data collection for CircleCI. But you can adjust the collection speed by setting up your desirable rate limit.',
         learnMore: DOC_URL.PLUGIN.BITBUCKET.RATE_LIMIT,
         externalInfo: 'CircleCI does not specify a maximum value of rate limit.',
         defaultValue: 10000,

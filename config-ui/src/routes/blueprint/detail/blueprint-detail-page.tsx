@@ -26,7 +26,7 @@ import { FromEnum } from '../types';
 
 import { BlueprintDetail } from './blueprint-detail';
 
-const brandName = import.meta.env.DEVLAKE_BRAND_NAME ?? 'DevLake';
+const brandName = import.meta.env.DEVLAKE_BRAND_NAME ?? 'DevX';
 
 export const BlueprintDetailPage = () => {
   const { id } = useParams() as { id: string };

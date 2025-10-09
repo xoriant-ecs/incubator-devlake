@@ -56,7 +56,7 @@ export const GitLabConfig: IPluginConfig = {
       {
         key: 'rateLimitPerHour',
         subLabel:
-          'By default, DevLake uses dynamic rate limit around 12,000 requests/hour for optimized data collection for GitLab. But you can adjust the collection speed by entering a fixed value.',
+          'By default, DevX uses dynamic rate limit around 12,000 requests/hour for optimized data collection for GitLab. But you can adjust the collection speed by entering a fixed value.',
         learnMore: DOC_URL.PLUGIN.GITLAB.RATE_LIMIT,
         externalInfo:
           'The maximum rate limit for GitLab Cloud is 120,000 requests/hour. Tokens under the same IP address share the rate limit, so the actual rate limit for your token will be lower than this number.',

@@ -95,7 +95,7 @@ export const CrossDomain = ({ connectionId, transformation, setTransformation }:
                 development panel
               </ExternalLink>
             </h5>
-            <p>Finish the configuration so DevLake can get your Git data from your Jira development panel.</p>
+            <p>Finish the configuration so DevX can get your Git data from your Jira development panel.</p>
             {radio === 'dev-panel' && (
               <>
                 {transformation.applicationType && (

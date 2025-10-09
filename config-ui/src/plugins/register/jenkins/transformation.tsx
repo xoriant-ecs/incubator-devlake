@@ -80,10 +80,10 @@ const renderCollapseItems = ({
             </Tag>
           </h3>
           <p style={{ marginBottom: 16 }}>
-            Use Regular Expression to define Deployments in DevLake in order to measure DORA metrics.{' '}
+            Use Regular Expression to define Deployments in DevX in order to measure DORA metrics.{' '}
             <ExternalLink link={DOC_URL.PLUGIN.JENKINS.TRANSFORMATION}>Learn more</ExternalLink>
           </p>
-          <div style={{ marginTop: 16 }}>Convert a Jenkins Build as a DevLake Deployment when: </div>
+          <div style={{ marginTop: 16 }}>Convert a Jenkins Build as a DevX Deployment when: </div>
           <div style={{ margin: '8px 0', paddingLeft: 28 }}>
             <span>
               The name of the <strong>Jenkins job</strong> or <strong>one of its stages</strong> matches
@@ -118,7 +118,7 @@ const renderCollapseItems = ({
               }
             />
             <span>, this Deployment is a ‘Production Deployment’</span>
-            <HelpTooltip content="If you leave this field empty, all DevLake Deployments will be tagged as in the Production environment. " />
+            <HelpTooltip content="If you leave this field empty, all DevX Deployments will be tagged as in the Production environment. " />
           </div>
         </>
       ),

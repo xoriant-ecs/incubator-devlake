@@ -70,7 +70,7 @@ export const TAPDConfig: IPluginConfig = {
       {
         key: 'rateLimitPerHour',
         subLabel:
-          'By default, DevLake uses 3,000 requests/hour for data collection for TAPD. But you can adjust the collection speed by setting up your desirable rate limit.',
+          'By default, DevX uses 3,000 requests/hour for data collection for TAPD. But you can adjust the collection speed by setting up your desirable rate limit.',
         learnMore: DOC_URL.PLUGIN.TAPD.RATE_LIMIT,
         externalInfo: 'The maximum rate limit of TAPD is 3,600 requests/hour.',
         defaultValue: 3000,

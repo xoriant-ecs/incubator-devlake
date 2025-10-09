@@ -43,7 +43,7 @@ export const BitbucketServerConfig: IPluginConfig = {
       {
         key: 'rateLimitPerHour',
         subLabel:
-          'By default, DevLake uses dynamic rate limit for optimized data collection for Bitbucket Server. But you can adjust the collection speed by entering a fixed value.',
+          'By default, DevX uses dynamic rate limit for optimized data collection for Bitbucket Server. But you can adjust the collection speed by entering a fixed value.',
         learnMore: DOC_URL.PLUGIN.BITBUCKET_SERVER.RATE_LIMIT,
         externalInfo:
           'The maximum rate limit for different entities in Bitbucket Server is 60,000 or 1,000 requests/hour.',

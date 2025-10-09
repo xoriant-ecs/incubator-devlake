@@ -82,7 +82,7 @@ export const GitHubConfig: IPluginConfig = {
       {
         key: 'rateLimitPerHour',
         subLabel:
-          'By default, DevLake uses dynamic rate limit for optimized data collection for GitHub. But you can adjust the collection speed by entering a fixed value. Please note: the rate limit setting applies to all tokens you have entered above.',
+          'By default, DevX uses dynamic rate limit for optimized data collection for GitHub. But you can adjust the collection speed by entering a fixed value. Please note: the rate limit setting applies to all tokens you have entered above.',
         learnMore: DOC_URL.PLUGIN.GITHUB.RATE_LIMIT,
         externalInfo:
           'Rate Limit Value Reference\nGitHub: 0-5,000 requests/hour\nGitHub Enterprise: 0-15,000 requests/hour',

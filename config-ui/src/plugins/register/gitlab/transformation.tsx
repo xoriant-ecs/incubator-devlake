@@ -116,11 +116,11 @@ const renderCollapseItems = ({
             </Tag>
           </h3>
           <p style={{ marginBottom: 16 }}>
-            Use Regular Expression to define Deployments in DevLake in order to measure DORA metrics.{' '}
+            Use Regular Expression to define Deployments in DevX in order to measure DORA metrics.{' '}
             <ExternalLink link={DOC_URL.PLUGIN.GITLAB.TRANSFORMATION}>Learn more</ExternalLink>
           </p>
           <Checkbox disabled checked>
-            Convert a GitLab Deployment to a DevLake Deployment
+            Convert a GitLab Deployment to a DevX Deployment
           </Checkbox>
           <div style={{ margin: '8px 0', paddingLeft: 28 }}>
             <span>If its environment name matches</span>
@@ -138,7 +138,7 @@ const renderCollapseItems = ({
             <span>, this deployment is a ‘Production Deployment’</span>
           </div>
           <Checkbox checked={useCustom} onChange={onChangeUseCustom}>
-            Convert a GitLab Pipeline as a DevLake Deployment when:
+            Convert a GitLab Pipeline as a DevX Deployment when:
           </Checkbox>
           <div style={{ margin: '8px 0', paddingLeft: 28 }}>
             <span>

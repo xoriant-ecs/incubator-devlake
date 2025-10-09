@@ -111,12 +111,12 @@ const renderCollapseItems = ({
       children: (
         <>
           <p>
-            Tell DevLake what your issue labels mean to view metrics such as{' '}
+            Tell DevX what your issue labels mean to view metrics such as{' '}
             <ExternalLink link={DOC_URL.METRICS.BUG_AGE}>Bug Age</ExternalLink>,{' '}
             <ExternalLink link={DOC_URL.METRICS.MTTR}>DORA - Median Time to Restore Service</ExternalLink>, etc.
           </p>
           <p>
-            DevLake defines three standard types of issues: FEATURE, BUG and INCIDENT. Set your issues to these three
+            DevX defines three standard types of issues: FEATURE, BUG and INCIDENT. Set your issues to these three
             types with issue labels that match the RegEx.
           </p>
           <Form.Item label="Requirement">
@@ -237,11 +237,11 @@ const renderCollapseItems = ({
             </Tag>
           </h3>
           <p style={{ marginBottom: 16 }}>
-            Use Regular Expression to define Deployments in DevLake in order to measure DORA metrics.{' '}
+            Use Regular Expression to define Deployments in DevX in order to measure DORA metrics.{' '}
             <ExternalLink link={DOC_URL.PLUGIN.GITHUB.TRANSFORMATION}>Learn more</ExternalLink>
           </p>
           <Checkbox disabled checked>
-            Convert a GitHub Deployment to a DevLake Deployment
+            Convert a GitHub Deployment to a DevX Deployment
           </Checkbox>
           <div style={{ margin: '8px 0', paddingLeft: 28 }}>
             <span>If its environment name matches</span>
@@ -259,7 +259,7 @@ const renderCollapseItems = ({
             <span>, this deployment is a ‘Production Deployment’</span>
           </div>
           <Checkbox checked={useCustom} onChange={onChangeUseCustom}>
-            Convert a GitHub workflow run as a DevLake Deployment when:
+            Convert a GitHub workflow run as a DevX Deployment when:
           </Checkbox>
           <div style={{ margin: '8px 0', paddingLeft: 28 }}>
             <span>

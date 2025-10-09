@@ -30,7 +30,7 @@ import { menuItems, menuItemsMatch, headerItems } from './config';
 
 const { Sider, Header, Content, Footer } = AntdLayout;
 
-const brandName = import.meta.env.DEVLAKE_BRAND_NAME ?? 'DevLake';
+const brandName = import.meta.env.DEVLAKE_BRAND_NAME ?? 'DevX';
 
 export const Layout = () => {
   const [openKeys, setOpenKeys] = useState<string[]>([]);

@@ -80,10 +80,10 @@ const renderCollapseItems = ({
             </Tag>
           </h3>
           <p style={{ marginBottom: 16 }}>
-            Use Regular Expression to define Deployments in DevLake in order to measure DORA metrics.{' '}
+            Use Regular Expression to define Deployments in DevX in order to measure DORA metrics.{' '}
             <ExternalLink link={DOC_URL.PLUGIN.CIRCLECI.TRANSFORMATION}>Learn more</ExternalLink>
           </p>
-          <div>Convert a CircleCI Workflow Run as a DevLake Deployment when: </div>
+          <div>Convert a CircleCI Workflow Run as a DevX Deployment when: </div>
           <div style={{ margin: '8px 0', paddingLeft: 28 }}>
             <span>
               The name of the <strong>CircleCI workflow</strong> or <strong>one of its jobs</strong> matches
@@ -117,7 +117,7 @@ const renderCollapseItems = ({
               }
             />
             <span>, this Deployment is a ‘Production Deployment’</span>
-            <HelpTooltip content="If you leave this field empty, all DevLake Deployments will be tagged as in the Production environment." />
+            <HelpTooltip content="If you leave this field empty, all DevX Deployments will be tagged as in the Production environment." />
           </div>
         </>
       ),

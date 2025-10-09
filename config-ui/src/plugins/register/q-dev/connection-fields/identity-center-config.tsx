@@ -96,7 +96,7 @@ export const IdentityCenterConfig = ({ initialValues, values, setValues, setErro
     <>
       <Block
         title="IAM Identity Store ID"
-        description="Optional. Provide if you want DevLake to resolve user display names (format d-xxxxxxxxxx)."
+        description="Optional. Provide if you want DevX to resolve user display names (format d-xxxxxxxxxx)."
       >
         <Input
           style={{ width: 386 }}

@@ -111,11 +111,11 @@ const renderCollapseItems = ({
             </Tag>
           </h3>
           <p style={{ marginBottom: 16 }}>
-            Use Regular Expression to define Deployments in DevLake in order to measure DORA metrics.{' '}
+            Use Regular Expression to define Deployments in DevX in order to measure DORA metrics.{' '}
             <ExternalLink link={DOC_URL.PLUGIN.BAMBOO.TRANSFORMATION}>Learn more</ExternalLink>
           </p>
           <Checkbox disabled checked>
-            Convert a Bamboo Deployment to a DevLake Deployment
+            Convert a Bamboo Deployment to a DevX Deployment
           </Checkbox>
           <div style={{ margin: '8px 0', paddingLeft: 28 }}>
             <span>If its environment name matches</span>
@@ -133,7 +133,7 @@ const renderCollapseItems = ({
             <span>, this deployment is a ‘Production Deployment’</span>
           </div>
           <Checkbox checked={useCustom} onChange={onChangeUseCustom}>
-            Convert a Bamboo Plan Build to a DevLake Deployment when its name or one of its job builds’ names
+            Convert a Bamboo Plan Build to a DevX Deployment when its name or one of its job builds’ names
           </Checkbox>
           <div style={{ margin: '8px 0', paddingLeft: 28 }}>
             <span>matches</span>

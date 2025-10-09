@@ -171,12 +171,12 @@ const renderCollapseItems = ({
       children: (
         <Form labelCol={{ span: 5 }}>
           <p>
-            Tell DevLake what types of Jira issues you are using as features, bugs and incidents, and what field as
+            Tell DevX what types of Jira issues you are using as features, bugs and incidents, and what field as
             `Epic Link` or `Story Points`.
           </p>
           <p>
-            DevLake defines three standard types of issues: FEATURE, BUG and INCIDENT. Standardize your Jira issue types
-            to these three types so that DevLake can calculate metrics such as{' '}
+            DevX defines three standard types of issues: FEATURE, BUG and INCIDENT. Standardize your Jira issue types
+            to these three types so that DevX can calculate metrics such as{' '}
             <ExternalLink link={DOC_URL.METRICS.REQUIREMENT_LEAD_TIME}>Requirement Lead Time</ExternalLink>,{' '}
             <ExternalLink link={DOC_URL.METRICS.BUG_AGE}>Bug Age</ExternalLink>,
             <ExternalLink link={DOC_URL.METRICS.MTTR}>DORA - Median Time to Restore Service</ExternalLink>, etc.

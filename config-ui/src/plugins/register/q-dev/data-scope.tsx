@@ -326,7 +326,7 @@ export const QDevDataScope = ({
   return (
     <Flex vertical gap="middle">
       <Typography.Paragraph type="secondary" style={{ marginBottom: 0 }}>
-        Pick which year and month prefixes DevLake should collect from your Q Developer S3 bucket. Leave empty to
+        Pick which year and month prefixes DevX should collect from your Q Developer S3 bucket. Leave empty to
         collect all available data.
       </Typography.Paragraph>
 

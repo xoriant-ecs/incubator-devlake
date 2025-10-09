@@ -75,7 +75,7 @@ export const TeambitionConfig: IPluginConfig = {
       {
         key: 'rateLimitPerHour',
         subLabel:
-          'By default, DevLake uses dynamic rate limit for optimized data collection for Teambition. But you can adjust the collection speed by entering a fixed value. Please note: the rate limit setting applies to all tokens you have entered above.',
+          'By default, DevX uses dynamic rate limit for optimized data collection for Teambition. But you can adjust the collection speed by entering a fixed value. Please note: the rate limit setting applies to all tokens you have entered above.',
         learnMore: DOC_URL.PLUGIN.TEAMBITION.RATE_LIMIT,
         externalInfo: 'Teambition specifies a maximum QPS of 40.',
         defaultValue: 5000,

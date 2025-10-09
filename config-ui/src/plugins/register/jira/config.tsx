@@ -46,7 +46,7 @@ export const JiraConfig: IPluginConfig = {
       {
         key: 'rateLimitPerHour',
         subLabel:
-          'By default, DevLake uses dynamic rate limit for optimized data collection for Jira. But you can adjust the collection speed by setting up your desirable rate limit.',
+          'By default, DevX uses dynamic rate limit for optimized data collection for Jira. But you can adjust the collection speed by setting up your desirable rate limit.',
         learnMore: DOC_URL.PLUGIN.JIRA.RATE_LIMIT,
         externalInfo:
           'Jira Cloud does not specify a maximum value of rate limit. For Jira Server, please contact your admin for more information.',

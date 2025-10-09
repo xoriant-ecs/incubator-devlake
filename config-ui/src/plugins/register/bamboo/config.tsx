@@ -37,7 +37,7 @@ export const BambooConfig: IPluginConfig = {
       {
         key: 'rateLimitPerHour',
         subLabel:
-          'By default, DevLake uses dynamic rate limit for optimized data collection for Bamboo. But you can adjust the collection speed by entering a fixed value. Please note: the rate limit setting applies to all tokens you have entered above.',
+          'By default, DevX uses dynamic rate limit for optimized data collection for Bamboo. But you can adjust the collection speed by entering a fixed value. Please note: the rate limit setting applies to all tokens you have entered above.',
         learnMore: DOC_URL.PLUGIN.BAMBOO.RATE_LIMIT,
         externalInfo: 'Bamboo does not specify a maximum value of rate limit.',
         defaultValue: 10000,

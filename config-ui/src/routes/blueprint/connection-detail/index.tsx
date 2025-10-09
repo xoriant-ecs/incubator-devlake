@@ -32,7 +32,7 @@ import { operator } from '@/utils';
 import { BlueprintConnectionDetailTable } from './table';
 import * as S from './styled';
 
-const brandName = import.meta.env.DEVLAKE_BRAND_NAME ?? 'DevLake';
+const brandName = import.meta.env.DEVLAKE_BRAND_NAME ?? 'DevX';
 
 export const BlueprintConnectionDetailPage = () => {
   const [version, setVersion] = useState(1);

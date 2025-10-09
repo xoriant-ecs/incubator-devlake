@@ -64,7 +64,7 @@ interface Props {
   title?: React.ReactNode;
 }
 
-export const Step0 = ({ logo = <Logo direction="horizontal" />, title = 'DevLake' }: Props) => {
+export const Step0 = ({ logo = <Logo direction="horizontal" />, title = 'DevX' }: Props) => {
   const [operating, setOperating] = useState(false);
 
   const navigate = useNavigate();

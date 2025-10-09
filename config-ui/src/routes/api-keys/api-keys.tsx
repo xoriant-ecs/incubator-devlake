@@ -94,7 +94,7 @@ export const ApiKeys = () => {
   return (
     <PageHeader
       breadcrumbs={[{ name: 'API Keys', path: PATHS.APIKEYS() }]}
-      description="You can generate and manage your API keys to access the DevLake API."
+      description="You can generate and manage your API keys to access the DevX API."
     >
       <Flex style={{ marginBottom: 16 }} justify="flex-end">
         <Button type="primary" icon={<PlusOutlined />} onClick={() => setModal('create')}>
@@ -236,7 +236,7 @@ export const ApiKeys = () => {
           onCancel={handleCancel}
           onOk={handleRevoke}
         >
-          <Message content="Any applications or scripts using this API key will no longer be able to access the DevLake API. You cannot undo this action." />
+          <Message content="Any applications or scripts using this API key will no longer be able to access the DevX API. You cannot undo this action." />
         </Modal>
       )}
     </PageHeader>

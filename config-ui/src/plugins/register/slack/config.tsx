@@ -50,7 +50,7 @@ export const SlackConfig: IPluginConfig = {
       {
         key: 'rateLimitPerHour',
         subLabel:
-          'By default, DevLake uses 3,000 requests/hour for data collection for Slack. You can adjust the collection speed by setting a custom rate limit.',
+          'By default, DevX uses 3,000 requests/hour for data collection for Slack. You can adjust the collection speed by setting a custom rate limit.',
         learnMore: DOC_URL.PLUGIN.SLACK?.RATE_LIMIT,
         externalInfo: 'Slack’s rate limits vary by method and workspace plan.',
         defaultValue: 3000,

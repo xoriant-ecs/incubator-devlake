@@ -51,7 +51,7 @@ const steps = [
   },
 ];
 
-const brandName = import.meta.env.DEVLAKE_BRAND_NAME ?? 'DevLake';
+const brandName = import.meta.env.DEVLAKE_BRAND_NAME ?? 'DevX';
 
 interface Props {
   logo?: React.ReactNode;

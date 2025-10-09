@@ -55,7 +55,7 @@ export const OpsgenieConfig: IPluginConfig = {
       {
         key: 'rateLimitPerHour',
         subLabel:
-          'By default, DevLake uses 6,000 requests/hour for data collection for Opsgenie. But you can adjust the collection speed by setting up your desirable rate limit.',
+          'By default, DevX uses 6,000 requests/hour for data collection for Opsgenie. But you can adjust the collection speed by setting up your desirable rate limit.',
         learnMore: DOC_URL.PLUGIN.OPSGENIE.RATE_LIMIT,
         externalInfo: 'Opsgenie rate limit is based on number of users and domains.',
         defaultValue: 6000,

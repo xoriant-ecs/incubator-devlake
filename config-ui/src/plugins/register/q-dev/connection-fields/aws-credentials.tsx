@@ -188,7 +188,7 @@ export const AwsCredentials = ({ type, initialValues, values, setValues, setErro
       )}
 
       {!isAccessKeyAuth && (
-        <Block title="IAM Role Authentication" description="DevLake will use the IAM role attached to the EC2 instance, ECS task, or Lambda function">
+        <Block title="IAM Role Authentication" description="DevX will use the IAM role attached to the EC2 instance, ECS task, or Lambda function">
           <div style={{ padding: '12px', backgroundColor: '#f6f8fa', borderRadius: '6px', color: '#586069' }}>
             <p style={{ margin: 0 }}>
               Make sure the IAM role has the necessary S3 permissions to access your bucket.

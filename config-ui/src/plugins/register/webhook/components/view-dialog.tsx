@@ -61,7 +61,7 @@ export const ViewDialog = ({ initialId, onCancel }: Props) => {
       <S.Wrapper>
         <p>
           Copy the following CURL commands to your issue tracking or CI/CD tools to push `Incidents` and `Deployments`
-          by making a POST to DevLake. Please replace the {'{'}API_KEY{'}'} in the following URLs.
+          by making a POST to DevX. Please replace the {'{'}API_KEY{'}'} in the following URLs.
         </p>
         <Block title="Incident">
           <h5>Post to register/update an incident</h5>

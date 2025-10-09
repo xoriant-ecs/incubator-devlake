@@ -33,7 +33,7 @@ import { WebhooksPanel } from './webhooks-panel';
 import { SettingsPanel } from './settings-panel';
 import * as S from './styled';
 
-const brandName = import.meta.env.DEVLAKE_BRAND_NAME ?? 'DevLake';
+const brandName = import.meta.env.DEVLAKE_BRAND_NAME ?? 'DevX';
 
 export const ProjectDetailPage = () => {
   const [version, setVersion] = useState(1);

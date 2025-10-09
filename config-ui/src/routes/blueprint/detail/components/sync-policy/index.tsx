@@ -101,7 +101,7 @@ export const SyncPolicy = ({
       {showTimeFilter && (
         <Block
           title="Time Range"
-          description="Select the time range for the data you wish to collect. DevLake will collect the last six months of data by default."
+          description="Select the time range for the data you wish to collect. DevX will collect the last six months of data by default."
         >
           <div className="quick-selection">
             {quickTimeOpts.map((opt, i) => (
